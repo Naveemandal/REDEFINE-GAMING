@@ -1,0 +1,104 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=FONT-NAME&display=swap');
+
+
+body {
+  font-family: 'General', sans-serif;  /* Fixed font-family */
+  width: 100dvw;
+  background-color: #dfdff0;
+  overflow-x: hidden;
+}
+
+/* Custom Fonts */
+@font-face {
+  font-family: 'Zentry';
+  src: url('/fonts/Zentry.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'General';
+  src: url('/fonts/General.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Circular Web';
+  src: url('/fonts/CircularWeb.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Robert Medium';
+  src: url('/fonts/Robert-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Robert Regular';
+  src: url('/fonts/Robert-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('/fonts/CustomFont.ttf') format('truetype');
+}
+
+
+/* Custom Font Classes */
+.font-zentry {
+  font-family: 'Zentry', sans-serif;
+}
+
+.font-general {
+  font-family: 'General', sans-serif;
+}
+
+.font-circular-web {
+  font-family: 'Circular Web', sans-serif;
+}
+
+.font-robert-medium {
+  font-family: 'Robert Medium', sans-serif;
+}
+
+.font-robert-regular {
+  font-family: 'Robert Regular', sans-serif;
+}
+
+
+
+
+/*  */
+
+
+:root {
+  --blue-50: #DFDFF0;
+  --blue-75: #dfdff2;
+  --blue-100: #F0F2FA;
+  --blue-200: #010101;
+  --blue-300: #4FB7DD;
+
+  --violet-300: #5724ff;
+
+  --yellow-100: #8e983f;
+  --yellow-300: #edff66;
+}
+
+/* Tailwind Utility Overrides */
+.text-blue-50 { color: var(--blue-50); }
+.text-blue-75 { color: var(--blue-75); }
+.text-blue-100 { color: var(--blue-100); }
+.text-blue-200 { color: var(--blue-200); }
+.text-blue-300 { color: var(--blue-300); }
+
+.bg-blue-50 { background-color: var(--blue-50); }
+.bg-blue-75 { background-color: var(--blue-75); }
+.bg-blue-100 { background-color: var(--blue-100); }
+.bg-blue-200 { background-color: var(--blue-200); }
+.bg-blue-300 { background-color: var(--blue-300); }
+
+.text-violet-300 { color: var(--violet-300); }
+.bg-violet-300 { background-color: var(--violet-300); }
+
+.text-yellow-100 { color: var(--yellow-100); }
+.bg-yellow-100 { background-color: var(--yellow-100); }
+.text-yellow-300 { color: var(--yellow-300); }
+.bg-yellow-300 { background-color: var(--yellow-300); }
